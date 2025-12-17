@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <title>BrightEdge Marketing</title>
+</head>
+<body>
+  <!-- 🏠 Home screen -->
+  <div id="home">
+    <h1>Simple Gallery</h1>
+      <button onclick="openGallery('gallery1')">Joselyn</button>
+      <button onclick="openGallery('gallery2')">Victoria</button>
+      <button onclick="openGallery('gallery3')">Daniela</button>
+      <button onclick="openGallery('gallery4')">Stephanie Seymour</button>
+  </div>
+
+  <!-- 🖼️ Gallery container -->
+  <div class="gallery" id="gallery" style="display:none;"></div>
+
+  <!-- 🔍 Fullscreen viewer -->
+  <div class="fullscreen" id="fullscreen">
+    <button class="close-btn" onclick="closeFullscreen()">×</button>
+  </div>
+<script src="script.js"></script>
+</body>
+</html>
